@@ -1,0 +1,44 @@
+Advanced Task Killer Pro v1.9.7 build 92
+Copyright(C) 2009, Rechild
+What is new:
+-V1.9.7B92
+Change auto kill to execute only when device is awake
+Add an option to ignore service and front app for Android 2.2 and later version
+Fix 'Force stop/detail' issue for Android 2.3
+Check button to check issues of the phone
+Compiled under 3.1 platform
+Add move buttons option
+
+-v1.9.6
+Bug report feature
+
+-v1.9.2
+2.2 Froyo support, add menu option service to kill running services
+-v1.9.1
+Ignore Alarm Clock for security level High
+-v1.9.0
+2.2 Froyo support
+-v1.7.9
+Fix bug for widget
+-v1.7.8
+Mini bug fixed
+-v1.7.7
+Autokill don't kill using apps
+-v1.7.6
+Add Security level to show different apps
+-v1.7.5
+Add auto kill when screen off
+-v1.7.4
+Change font size
+-v1.7.3
+Built under Android 2.0.1
+-v1.7.2
+Fixed PR of Auto-Kill
+-v1.7.1
+Change settings for Auto-Kill
+Change method for Auto-Kill
+-v1.7.0
+New setting screen
+Help message
+View level
+About message

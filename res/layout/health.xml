@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.rechild.advancedtaskkiller">
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_title_layer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btnBatteryUsageSummary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnBatteryUsageSummary" />
+    </LinearLayout>
+    <TextView android:textSize="19.0dip" android:id="@id/txtHealthHelp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txtHealthHelp" android:layout_below="@id/main_title_layer" />
+    <LinearLayout android:id="@id/adviewLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

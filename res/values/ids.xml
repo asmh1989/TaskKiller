@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ivWidgetIcon">false</item>
+    <item type="id" name="RelativeLayout01">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="LinearLayout02">false</item>
+    <item type="id" name="editErrorMessage">false</item>
+    <item type="id" name="main_title_layer">false</item>
+    <item type="id" name="btnBatteryUsageSummary">false</item>
+    <item type="id" name="txtHealthHelp">false</item>
+    <item type="id" name="adviewLayout">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="tvHelp">false</item>
+    <item type="id" name="rlIgnoreListMain">false</item>
+    <item type="id" name="tvIgnoreListHelp">false</item>
+    <item type="id" name="llTopPanel">false</item>
+    <item type="id" name="btnClearAll">false</item>
+    <item type="id" name="btnBuildIgnoreList">false</item>
+    <item type="id" name="lvIgnoreList">false</item>
+    <item type="id" name="FrameLayout01">false</item>
+    <item type="id" name="list_icon">false</item>
+    <item type="id" name="list_iconCheck">false</item>
+    <item type="id" name="list_name">false</item>
+    <item type="id" name="loadingdialogmsg">false</item>
+    <item type="id" name="tvLog">false</item>
+    <item type="id" name="btnCheck">false</item>
+    <item type="id" name="btn_task">false</item>
+    <item type="id" name="listbody">false</item>
+</resources>

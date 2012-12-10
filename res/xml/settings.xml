@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="AdvTaskKillerSettings" >
+
+    <PreferenceCategory android:title="@string/startup_setting_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="IsAutoStartEnabled"
+            android:persistent="true"
+            android:summary="@string/autostart_summary"
+            android:title="@string/autostart_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/view_setting_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="IsNotificationEnabled"
+            android:persistent="true"
+            android:summary="@string/shownotification_summary"
+            android:title="@string/shownotification_title" />
+
+        <com.rechild.advancedtaskkillerpro.SeekBarPreference
+            android:defaultValue="36"
+            android:dialogMessage="Set height for item of running list"
+            android:key="ItemHeight"
+            android:max="100"
+            android:persistent="true"
+            android:summary="@string/itemheight_summary"
+            android:text="pixel"
+            android:title="@string/itemheight_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="IsButtonAtTop"
+            android:persistent="true"
+            android:summary="@string/is_button_at_top_summary"
+            android:title="@string/is_button_at_top_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ignore_setting_title" >
+        <PreferenceScreen
+            android:summary="@string/ignorelist_summary"
+            android:title="@string/ignorelist_title" >
+            <intent android:action="com.rechild.advancedtaskkillerpro.intent.action.IgnoreList" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="IgnoreServiceFrontApp"
+            android:persistent="true"
+            android:summary="@string/ignore_service_summary"
+            android:title="@string/ignore_service_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/action_setting_title" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/menu_task_operation"
+            android:entryValues="@array/menu_task_operation_value"
+            android:key="ClickActionValue"
+            android:persistent="true"
+            android:selectable="true"
+            android:summary="@string/clickaction_summary"
+            android:title="@string/clickaction_title" />
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/menu_task_operation"
+            android:entryValues="@array/menu_task_operation_value"
+            android:key="LongPressActionValue"
+            android:summary="@string/longpressaction_summary"
+            android:title="@string/longpressaction_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/autokill_setting_title" >
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/auto_kill_items"
+            android:entryValues="@array/auto_kill_items_value"
+            android:key="AutoKillLevelValue"
+            android:summary="@string/autokilllevel_summary"
+            android:title="@string/autokilllevel_title" />
+        <ListPreference
+            android:defaultValue="3600000"
+            android:entries="@array/auto_kill_frequency"
+            android:entryValues="@array/auto_kill_frequency_value"
+            android:key="AutoKillFrequecyValue"
+            android:summary="@string/autokillfrequency_summary"
+            android:title="@string/autokillfrequency_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/security_title" >
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/security_level_items"
+            android:entryValues="@array/security_level_items_value"
+            android:key="SecurityLevel"
+            android:summary="@string/security_level_summary"
+            android:title="@string/security_level_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

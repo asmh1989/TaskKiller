@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_task_operation">
+        <item>Kill</item>
+        <item>Select/Unselect</item>
+        <item>Switch to</item>
+        <item>Ignore</item>
+        <item>Force Stop/Detail</item>
+        <item>Pop-up Menu</item>
+    </string-array>
+    <string-array name="menu_task_operation_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>Kill</item>
+        <item>Select/Unselect</item>
+        <item>Switch to</item>
+        <item>Ignore</item>
+        <item>Force Stop/Detail</item>
+    </string-array>
+    <string-array name="auto_kill_items">
+        <item>Disable</item>
+        <item>Safe</item>
+        <item>Aggressive</item>
+        <item>Crazy</item>
+    </string-array>
+    <string-array name="auto_kill_items_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="auto_kill_frequency">
+        <item>Every 4 hours</item>
+        <item>Every 2 hours</item>
+        <item>Every one hour</item>
+        <item>Every half hour</item>
+        <item>When screen off</item>
+    </string-array>
+    <string-array name="auto_kill_frequency_value">
+        <item>14400000</item>
+        <item>7200000</item>
+        <item>3600000</item>
+        <item>1800000</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="security_level_items">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="security_level_items_value">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>

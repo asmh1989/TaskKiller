@@ -1,0 +1,35 @@
+*New feature*
+1. Why I have some green items on running list?
+Those apps are services and front apps. They cannot be killed directly in Android 2.2 and later version. You can Long Press on it and choose 'Force Stop' on the menu to force stop them. For Android 2.2 users, we suggest you go to settings to ignore them if they don't consume resources very much.
+
+2. What is the 'Check' button?
+This is used to check if your phone has any issues. Since this is a new feature, we don't have many checking items yet. You can open it and tap 'Battery Usage Summary' to check which part consume battery a lot by yourself, then you would know which one is consuming your battery. So killing apps consuming battery would help you to save your battery life.
+
+*General help*
+
+1. How to use it (for new users to quick start)?
+It is pretty simple. Open this tool and take a look at the running applications list? Uncheck some apps you don't want to kill (such as Advanced Task Killer and some system apps) Tap the button 'Kill selected apps', it will kill all applications checked.
+
+2. How to use it (for new users to do more)?
+If you don't want to kill any application, you can tap it on the running applications list. Then it's checking box will turn to gray.    
+
+3. Why there are programs running that I haven't used or even opened?
+Some applications will start up once you turn on your phone or be invoked by some events.
+
+4. What is ignore list/ignore?
+Ignore list is for you to ignore some applications you don't want to kill. If you long press on the application listed on the main screen of ATK, the menu will pop up, then you can select 'Ignore', the application would be moved to ignore list. When you tap 'Kill selected apps', it won't be killed any more.
+
+5. What is default action for long press
+You can set your default action for long press and click on the settings. The system default action for long press is pop-menu. That means you when you long press on the application(displays on the running applications list), a pop-menu would shows up. For example, if you want to switch to the application after you long press on it, you can set the default action of long press to 'Switch to'. 
+
+6. What is Auto-Kill
+We don't suggest people use auto kill. Abusing auto kill might consume more resources.
+If you want to kill apps automatically you need to choose one of auto-kill level
+1. Safe: Only kill the apps aren't running but still consume memory.
+2. Aggressive: Kill the apps running background and apps aren't running.
+3. Crazy: All apps except for apps you are using with.
+You should be able to see Auto Kill information shows on the title, like 'Auto-Kill: 12:20'. That means auto kill will start at 12:20, you can also change the frequency to impact the auto kill start time. If you encounter any issues in security level low, you can kill them one by one to find out which one cuase these issues, then you can uncheck or ignore it.
+
+7. What is Security Level
+We suggest people keep it as 'High'. Changing security level might cause some issues, if you don't know your phone well. 
+You can set it to low to show more apps, but you need know more about the apps to decide which one you need to ignore. 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlIgnoreListMain" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0px" android:id="@id/tvIgnoreListHelp" android:padding="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IgnoreListHelp" />
+    <LinearLayout android:id="@id/llTopPanel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvIgnoreListHelp">
+        <Button android:layout_gravity="right" android:id="@id/btnClearAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0px" android:text="@string/btn_Clear" />
+        <Button android:id="@id/btnBuildIgnoreList" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buildIgnoreList" />
+    </LinearLayout>
+    <ListView android:id="@id/lvIgnoreList" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/llTopPanel" />
+</RelativeLayout>

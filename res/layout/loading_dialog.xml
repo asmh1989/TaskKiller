@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" />
+    <TextView android:gravity="center_horizontal" android:id="@id/loadingdialogmsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="15.0px" android:layout_marginRight="10.0px" android:text="@string/loading" />
+</LinearLayout>
